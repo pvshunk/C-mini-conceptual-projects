@@ -1,0 +1,46 @@
+#include<iostream>
+using namespace std;
+
+int main(){//Mini Calculator
+	int a,b;
+	cout<<"a: "<<endl;
+	cin>>a;
+	cout<<"b: "<<endl;
+	cin>>b;
+	
+	char op;
+	cout<<"Opearator"<<endl;
+	cin>>op;
+	
+	
+	switch(op){
+		case '+':{
+			cout<<"SUM: "<<a+b;
+			break;
+		}
+		case '-':{
+			cout<<"Substraction: "<<a-b;
+			break;
+		}
+		case '*':{
+			cout<<"Multiplication: "<<a*b;
+			break;
+		}
+		case '/':{
+			cout<<"Division: "<<a/b;
+			break;
+		}
+		case '%':{
+			cout<<"Module: "<<a%b;
+			break;
+		}
+		default:{
+			cout<<"Please Enter valid operator";
+			break;
+		}
+	}
+
+
+
+return 0;
+}
