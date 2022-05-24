@@ -1,0 +1,37 @@
+#include<iostream>
+using namespace std;
+
+int main(){//Notes required
+	int Tamount;
+	cout<<"Tot Amount: ";
+	cin>>Tamount;
+	
+	int notes;
+	cout<<"Total Notes: ";
+	cin>>notes;
+	
+	switch(notes){
+		case 100:{
+			cout<<Tamount/notes;
+			break;
+		}
+		case 50:{
+			cout<<Tamount/notes;
+			break;
+		}
+		case 10:{
+			cout<<Tamount/notes;
+			break;
+		}
+		case 1:{
+			cout<<Tamount/notes;
+			break;
+		}
+		default:{
+			cout<<"Invalid Note";
+			break;
+		}
+	}
+	
+return 0;
+}
